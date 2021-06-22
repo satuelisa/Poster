@@ -16,3 +16,5 @@ la opción "Upload" de Overleaf para incluir esos archivos; nómbrales
 En la cuarta versión, ocupas además un archivo
 EPS [`curvas.eps`](https://elisa.dyndns-web.com/curvas.eps) que
 preparé con [Gnuplot](http://gnuplot.sourceforge.net/).
+
+El [código QR](https://github.com/satuelisa/Poster/blob/main/qr-code.png) fue generado en (https://www.qrcode-monkey.com/).
