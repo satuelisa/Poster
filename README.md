@@ -23,7 +23,7 @@ la opción "Upload" de Overleaf para incluir esos archivos; nómbrales
 - Luego agregamos secciones
   en
   [`v2.tex`](https://github.com/satuelisa/Poster/blob/main/v2.tex).
-- Bibliografía y gradecimientos
+- Bibliografía y agradecimientos
   en
   [`v3.tex`](https://github.com/satuelisa/Poster/blob/main/v2.tex); se
   necesita hacer "Upload" a 
