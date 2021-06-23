@@ -38,7 +38,7 @@ figuras.
 [`v5.tex`](https://github.com/satuelisa/Poster/blob/main/v5.tex).
 - El
 [código QR](https://github.com/satuelisa/Poster/blob/main/qr-code.png)
-que se utiliza en [`c6.tex`](https://github.com/satuelisa/Poster/blob/main/v6.tex) fue
+que se utiliza en [`v6.tex`](https://github.com/satuelisa/Poster/blob/main/v6.tex) fue
 generado en https://www.qrcode-monkey.com/ (no se registran).
 
 Una _captura de pantalla_ de cómo se ve en Overleaf al final está
