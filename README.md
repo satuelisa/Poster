@@ -41,10 +41,10 @@ figuras.
 que se utiliza en [`c6.tex`](https://github.com/satuelisa/Poster/blob/main/v6.tex) fue
 generado en https://www.qrcode-monkey.com/ (no se registran).
 
-Una captura de pantalla de cómo se ve en Overleaf al final está
+Una _captura de pantalla_ de cómo se ve en Overleaf al final está
 disponible en 
-(https://github.com/satuelisa/Poster/blob/main/overleaf.png): a la
-izquierda se ven los archivos agregados por "Upload" y los creados
+https://github.com/satuelisa/Poster/blob/main/overleaf.png en la cual, a la
+izquierda, se ven los archivos agregados por "Upload" y los creados
 directo con "New file", debajo de ello las secciones, en el centro la
 fuente TeX y a la derecha el PDF. El botón verde arriba de "Recompile"
 es lo que hay que picar después de cada modificación.
