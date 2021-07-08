@@ -98,9 +98,46 @@ procedencia u organismo financiero en la parte baja.
 
 ## Otros tipos de documentos
 
-- Diapositivas
-- Artículo
-- Libro
-- Carta
-- CV
+### Diapositivas
 
+La plantilla
+[`slides.tex`](https://github.com/satuelisa/Poster/blob/main/slides.tex)
+usa el paquete `beamer` que provee [muchos distintos
+estilos](https://deic-web.uab.cat/~iblanes/beamer_gallery/index.html).
+
+![diapositivas](https://github.com/satuelisa/Poster/blob/main/slides.png)
+
+
+### Artículo
+
+La plantilla
+[`art.tex`](https://github.com/satuelisa/Poster/blob/main/carta.tex)
+hace uso del estilo del editorial Elsevier como un ejemplo; lo define
+el estilo `elsarticle`. Siempre revisa si tu revista o congreso tiene
+una plantilla propia o un estilo preferido. Si aceptan puro Word,
+mejor publica en otro lado :smirk:
+
+![artículo](https://github.com/satuelisa/Poster/blob/main/art.png)
+
+### Libro
+
+La plantilla
+[`book.tex`](https://github.com/satuelisa/Poster/blob/main/book.tex)
+usa un tipo de letra _sans-serif_ y se organiza en capítulos,
+secciones y subsecciones.
+
+
+### Carta
+
+La plantilla
+[`carta.tex`](https://github.com/satuelisa/Poster/blob/main/carta.tex)
+utiliza
+[`firma.png`](https://github.com/satuelisa/Poster/blob/main/firma.png)
+para incluir una firma.
+
+![carta](https://github.com/satuelisa/Poster/blob/main/carta.png)
+
+### CV
+
+Hay muchas [plantillas disponibles en
+Overleaf](https://www.overleaf.com/latex/templates/your-new-cv/xqzhcmqkqrtw).

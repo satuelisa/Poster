@@ -1,5 +1,6 @@
-# logos
+# avoid images
 *.png 
+*.jpeg
 
 # emacs
 *~ 
