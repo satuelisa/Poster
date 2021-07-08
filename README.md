@@ -4,6 +4,8 @@ Si no cuentas con una instalación local de
 [LaTeX](https://www.latex-project.org/), use por favor
 [Overleaf](https://www.overleaf.com/) en tu navegador web.
 
+![Overleaf](https://github.com/satuelisa/Poster/blob/main/overleaf.png)
+
 Elije "New project" y sigue las fases de este repositorio para seguir
 los pasos del taller.
 
