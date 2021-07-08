@@ -126,6 +126,7 @@ La plantilla
 usa un tipo de letra _sans-serif_ y se organiza en capítulos,
 secciones y subsecciones.
 
+![libro](https://github.com/satuelisa/Poster/blob/main/book.png)
 
 ### Carta
 
