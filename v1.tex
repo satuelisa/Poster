@@ -1,21 +1,22 @@
-\RequirePackage{xcolor}
 \documentclass{sciposter}
-\usepackage{multicol}
-\usepackage{graphicx,url}
+\usepackage{graphicx} % para poder incluir imagenes
 \usepackage[spanish]{babel}   
 \usepackage[utf8]{inputenc}
 
 \title{Cómo se llama tu proyecto}
-\author{Alumno de Verano y Elisa Schaeffer}
+\author{Alumno de Verano$^\dagger$ y Elisa Schaeffer}
 \institute {Posgrado en Ingeniería de Sistemas}
-\email{alumno.verano@instituto.edu.mx}
+\email{$\dagger$ alumno.verano@instituto.edu.mx} % la daga indica correo de quien es ese
 
-\leftlogo[1]{uanl.png} 
-\rightlogo[1]{fime.png}
+\leftlogo[1]{uanl.png} % tiene que estar en la misma carpeta con este archivo .tex
+\rightlogo[1]{fime.png} 
 
 \begin{document}
 
-\conference{Verano Científico 2021 --- Facultad de Ingeniería Mecánica y Eléctrica --- Universidad Autónoma de Nuevo León}
+% descripcion del evento para el cual haces el poster (aparece en la parte inferior)
+\conference{Verano Científico 2021 ---
+  Facultad de Ingeniería Mecánica y Eléctrica ---
+  Universidad Autónoma de Nuevo León}
 
 \maketitle
 

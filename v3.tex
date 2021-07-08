@@ -1,10 +1,12 @@
 \RequirePackage{xcolor}
 \documentclass{sciposter}
-\usepackage{multicol}
-\usepackage{graphicx,url,hyperref,doi}
+\usepackage{graphicx}
+\usepackage{url,,doi} % para manejar hipervinculos
+\usepackage{hyperref} % hipervinculos activables en el PDF
+\hypersetup{hidelinks} % que no tengan cajas de color las ligas
 \usepackage[spanish]{babel}   
 \usepackage[utf8]{inputenc}
-\usepackage[sort&compress,numbers]{natbib}
+\usepackage[sort&compress,numbers]{natbib} % para las citas
 
 \setlength{\parskip}{3pt}
 
@@ -18,28 +20,39 @@
 
 \begin{document}
 
-\conference{Verano Científico 2021 --- Facultad de Ingeniería Mecánica y Eléctrica --- Universidad Autónoma de Nuevo León}
+\conference{Verano Científico 2021 ---
+  Facultad de Ingeniería Mecánica y Eléctrica ---
+  Universidad Autónoma de Nuevo León}
 
 \maketitle
 
 \section{Introducción}
 
-De qué se trata el proyecto. Hipótesis y objetivos. Motivación, justificación.
+De qué se trata el proyecto. Hipótesis y objetivos. Motivación,
+justificación.
 
 \section{Antecedentes}
 
-Conceptos y notación indispensables para que tus lectores puedan entender el resto del trabajo. Citamos al libros de texto como el de \citet{ai}.
+Conceptos y notación indispensables para que tus lectores puedan
+entender el resto del trabajo. Citamos al libros de texto como el de
+\citet{ai}.
 
 \section{Estado de arte}
 
-Qué han hecho los demás sobre este tema (citar a publicaciones científicas, de preferencia publicadas en revistas que tengan DOI y que por lo menos algunos sean de los últimos cinco años. Aquí se suelen citar artículos como por ejemplo el trabajo de \citet{elisa} o algo que se haya presentado en un congreso como \citet{ar}.
+Qué han hecho los demás sobre este tema (citar a publicaciones
+científicas, de preferencia publicadas en revistas que tengan DOI y
+que por lo menos algunos sean de los últimos cinco años. Aquí se
+suelen citar artículos como por ejemplo el trabajo de \citet{elisa} o
+algo que se haya presentado en un congreso como \citet{ar}.
 
-Área de oportunidad: qué exactamente este trabajo contribuirá encima de lo que ya existe.  {\textquestiondown}Qué tiene de diferente/original/impacto?
+Área de oportunidad: qué exactamente este trabajo contribuirá encima
+de lo que ya existe.  {\textquestiondown}Qué tiene de
+diferente/original/impacto?
 
 \section{Solución propuesta}
 
-Metodología, herramientas (qué en sí haces, cómo lo haces, con qué lo haces).
-La implementación se hizo en Python 3.9 \citep{python}.
+Metodología, herramientas (qué en sí haces, cómo lo haces, con qué lo
+haces).  La implementación se hizo en Python 3.9 \citep{python}.
 
 \section{Experimentos}
 
@@ -47,14 +60,16 @@ Diseño, reportaje y análisis de los resultados de los experimentos.
 
 \section{Conclusiones}
 
-Qué se logró hacer; qué posibilidad de trabajo a futuro se tiene para este trabajo.
+Qué se logró hacer; qué posibilidad de trabajo a futuro se tiene para
+este trabajo.
 
 \subsection*{Agradecimientos}
 
-Organismos que otorgaron beca. Las demás personas que no son autores que ayudaron en algo. El póster se preparó con \url{https://www.overleaf.com/}.
+Organismos que otorgaron beca. Las demás personas que no son autores
+que ayudaron en algo. El póster se preparó con
+\url{https://www.overleaf.com/}.
 
-
-\bibliography{poster}
-\bibliographystyle{plainnat}
+\bibliography{poster} % de donde viene los datos de las refs
+\bibliographystyle{plainnat} % en cual estilo se acomodan
 
 \end{document}

@@ -2,11 +2,13 @@
 \documentclass{sciposter}
 \usepackage{multicol,subfig,amsmath}
 \usepackage{graphicx,url,hyperref,doi}
+\hypersetup{hidelinks} 
 \usepackage[spanish]{babel}   
 \usepackage[utf8]{inputenc}
 \usepackage[sort&compress,numbers]{natbib}
 \usepackage{tikz}
-\usepackage{algorithm} 
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{algorithm} % para codigos
 \usepackage{algpseudocode} 
 \usepackage{listings}
 
@@ -29,7 +31,7 @@
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
-\lstdefinestyle{pys}{
+\lstdefinestyle{pys}{ % colores de codigo fuente
     backgroundcolor=\color{white},   
     commentstyle=\color{codegreen},
     keywordstyle=\bfseries\color{blue},
@@ -52,39 +54,55 @@
 
 \begin{document}
 
-\conference{Verano Científico 2021 --- Facultad de Ingeniería Mecánica y Eléctrica --- Universidad Autónoma de Nuevo León}
+\conference{Verano Científico 2021 ---
+  Facultad de Ingeniería Mecánica y Eléctrica ---
+  Universidad Autónoma de Nuevo León}
 
 \maketitle
 \begin{abstract}
-En el resumen describes brevemente todo el proyecto, desde qué se trata hasta qué lograste hacer.
+En el resumen describes brevemente todo el proyecto, desde qué se
+trata hasta qué lograste hacer.
 \end{abstract}
 
 \begin{multicols}{2} 
 
 \section{Introducción}
 
-De qué se trata el proyecto. Hipótesis y objetivos. Motivación, justificación.
+De qué se trata el proyecto. Hipótesis y objetivos. Motivación,
+justificación.
 
 \section{Antecedentes}
 
-Conceptos y notación indispensables para que tus lectores puedan entender el resto del trabajo. Citamos al libros de texto como el de \citet{ai}.
+Conceptos y notación indispensables para que tus lectores puedan
+entender el resto del trabajo. Citamos al libros de texto como el de
+\citet{ai}.
 
 \section{Estado de arte}
 
-Qué han hecho los demás sobre este tema (citar a publicaciones científicas, de preferencia publicadas en revistas que tengan DOI y que por lo menos algunos sean de los últimos cinco años. Aquí se suelen citar artículos como por ejemplo el trabajo de \citet{elisa} o algo que se haya presentado en un congreso como \citet{ar}. A veces es necesario definir algo matemático como por ejemplo
+Qué han hecho los demás sobre este tema (citar a publicaciones
+científicas, de preferencia publicadas en revistas que tengan DOI y
+que por lo menos algunos sean de los últimos cinco años. Aquí se
+suelen citar artículos como por ejemplo el trabajo de \citet{elisa} o
+algo que se haya presentado en un congreso como \citet{ar}. A veces es
+necesario definir algo matemático como por ejemplo
 \begin{equation}
     f(x) = \sum_{i = 0}^\infty \sin(i x)
     \label{suma}
 \end{equation}
-para comunicar mejor lo que pasa. Si una ecuación depende de otra, conviene mencionarlo de manera explícita.
-Por ejemplo en $g(x) = \sqrt{f(x)}$, $f(x)$ proviene de la ecuación \eqref{suma}.
+para comunicar mejor lo que pasa. Si una ecuación depende de otra,
+conviene mencionarlo de manera explícita: $g(x) = \sqrt{f(x)}$, usa
+$f(x)$ de la ecuación \eqref{suma}.
 
-Área de oportunidad: qué exactamente este trabajo contribuirá encima de lo que ya existe.  {\textquestiondown}Qué tiene de diferente/original/impacto?
+Área de oportunidad: qué exactamente este trabajo contribuirá encima
+de lo que ya existe.  {\textquestiondown}Qué tiene de
+diferente/original/impacto?
 
 \section{Solución propuesta}
 
-Metodología, herramientas (qué en sí haces, cómo lo haces, con qué lo haces).
-La implementación se hizo en Python 3.9 \citep{python} y los componentes se interconectan como muestra el diagrama de la figura \ref{diag}.
+Metodología, herramientas (qué en sí haces, cómo lo haces, con qué lo
+haces).  La implementación se hizo en Python 3.9 \citep{python} y los
+componentes se interconectan como muestra el diagrama de la figura
+\ref{diag}.
 
 \begin{figure}
 \captionsetup{type=figure} % por culpa de sciposter
@@ -126,7 +144,9 @@ print(np.shape(X))
 
 \section{Experimentos}
 
-Diseño, reportaje y análisis de los resultados de los experimentos. Por lo general se incluyen figuras como la figura \ref{curvas}.
+Diseño, reportaje y análisis de los resultados de los
+experimentos. Por lo general se incluyen figuras como la figura
+\ref{curvas}.
 
 \begin{figure}
 \setcounter{figure}{1} % por culpa de sciposter
@@ -138,7 +158,8 @@ Diseño, reportaje y análisis de los resultados de los experimentos. Por lo gen
     \label{curvas}
 \end{figure}
 
-Además es muy común incluir cuadros de datos, como por ejemplo el cuadro \ref{data}.
+Además es muy común incluir cuadros de datos, como por ejemplo el
+cuadro \ref{data}.
 
 \begin{table}
 \setcounter{table}{0} % por culpa de sciposter
@@ -162,11 +183,14 @@ Además es muy común incluir cuadros de datos, como por ejemplo el cuadro \ref{
 
 \section{Conclusiones}
 
-Qué se logró hacer; qué posibilidad de trabajo a futuro se tiene para este trabajo.
+Qué se logró hacer; qué posibilidad de trabajo a futuro se tiene para
+este trabajo.
 
 \subsection*{Agradecimientos}
 
-Organismos que otorgaron beca. Las demás personas que no son autores que ayudaron en algo. El póster se preparó con \url{https://www.overleaf.com/}.
+Organismos que otorgaron beca. Las demás personas que no son autores
+que ayudaron en algo. El póster se preparó con
+\url{https://www.overleaf.com/}.
 
 \end{multicols}
 
