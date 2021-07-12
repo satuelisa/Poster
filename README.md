@@ -113,7 +113,7 @@ estilos](https://deic-web.uab.cat/~iblanes/beamer_gallery/index.html).
 ### Artículo
 
 La plantilla
-[`art.tex`](https://github.com/satuelisa/Poster/blob/main/carta.tex)
+[`art.tex`](https://github.com/satuelisa/Poster/blob/main/art.tex)
 hace uso del estilo del editorial Elsevier como un ejemplo; lo define
 el estilo `elsarticle`. Siempre revisa si tu revista o congreso tiene
 una plantilla propia o un estilo preferido. Si aceptan puro Word,
