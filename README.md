@@ -9,6 +9,8 @@ Si no cuentas con una instalación local de
 Elije "New project" y sigue las fases de este repositorio para seguir
 los pasos del taller.
 
+Hay un [video](https://youtu.be/Yp99D8p56lM) de este taller.
+
 ## Fase inicial
 
 Primero trabajamos con una versión muy sencilla de
